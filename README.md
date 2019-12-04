@@ -15,3 +15,10 @@
     )
     - [overview in arabic](https://www.youtube.com/watch?v=A9lZusQtX4w
     )
+
+
+- Icons, Vectors 
+    - [canva](https://www.canva.com).
+    - [icons8](https://icons8.com).
+    - [vecteezy](https://www.vecteezy.com).
+    - [iconfinder](https://www.iconfinder.com).
