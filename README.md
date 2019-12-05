@@ -1,5 +1,31 @@
+
 # Sheet
 
+# Installation Guide
+- Java
+  - Linux 
+    - There are two imp Oracle & OpenJdk we will use 
+    - install 
+         ```
+            sudo apt update
+            sudo apt install openjdk-8-jdk // we can replace 8 with any version 8,10,11.
+         ```
+    - query version `java --version`
+    - make as default one by `sudo update-alternatives --config java` this show selection and choose it.
+    - add `JAVA_HOME`
+        - copy path to jdk by type last command `sudo update-alternatives --config java`
+        - type `sudo nano /etc/environment`
+        - add to end of it `JAVA_HOME="THE PATH YOU HAVE COPIED"`
+        - type`source /etc/environment`
+        - verify by `echo $JAVA_HOME`.
+
+- Android Studio 
+  - Linux
+    - Download .tar file
+    - Extract it 
+    - go to `bin` directory 
+    - open terminal and type `./studio.sh`
+    - Contiune process. 
 # Android 
 - `Process unexpectedly exit.` => downgrade version of gradle to `classpath 'com.android.tools.build:gradle:3.3.2'`
 
@@ -21,4 +47,4 @@
     - [canva](https://www.canva.com).
     - [icons8](https://icons8.com).
     - [vecteezy](https://www.vecteezy.com).
-    - [iconfinder](https://www.iconfinder.com).
+    - [iconfinder](https://www.iconfinder.com)
