@@ -2,6 +2,19 @@
 # Sheet
 
 # Installation Guide
+  - Flutter 
+    - Linux
+      - install SDK [link](https://flutter.dev/docs/development/tools/sdk/releases?tab=linux).
+      - add it to path by ```export PATH="$PATH:`pwd`/flutter/bin"``` or 
+      - ```sudo nano /etc/profile``` then add ``` if [ "`id -u`" -eq 0 ]; then
+           PATH="..."
+        else
+           PATH="/usr/local/bin:...:[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin"
+        fi
+        export PATH ```.
+      - it may need to configure Dart sdk.
+      - you will find it at `flutter/bin/cache/dart-sdk`
+
 - Java
   - Linux 
     - There are two imp Oracle & OpenJdk we will use 
