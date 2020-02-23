@@ -44,8 +44,8 @@ a brife for solution [Will be added]
 
 # using Same Entity for two Tables
 I was need to store list of favourite movies, there was some ideas to do this
-1. add a field in Entity to specify it as Favourite and use a query to get these favo 
-2. duplicate same Entity as different table 
+1. add a **field** in Entity to specify it as Favourite and use a query to get these favourite 
+2. **duplicate** same Entity as different table 
 
 Let's analyze both
 
