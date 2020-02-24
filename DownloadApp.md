@@ -16,11 +16,12 @@ an uitlity app to download ayahs of quran as **mp3**.
 
 # Download Service 
 It maintains a queue with indexes of ayahs to be downloaded.
-There are states of file (`IDEL`,`DOWNLOADING`,`PAUSED`,`DONE`)
+There are states of file (`IDEL`,`DOWNLOADING`,`PAUSED`,`DONE`,`IN-QUEUE` )
 - `IDEL` : means file not downloaded before (i.e initial state ).
 - `DOWNLOADING` : file is currently downloading 
 - `PAUSED` : file is paused 
 - `DONE` : completly downloaded 
+- `IN-QUEUE`: file in queue of downloading
 
 **Note**: These states used to track file and used with updating ui and for listing files as category (`DOWNLOADING`,`PAUSED`,`DONE`).
 
@@ -108,20 +109,21 @@ data class AyahDownloadItem(
 
 # UI 
 
-## DownloadHolder 
+## 1.DownloadHolder 
 - Placeholder fragement that will be used with ViewPager to represent 3 Fragments (ALL,DOWNLOADING,DONE)
 - It accepts **state** as paramter which is used to distinct each fragment and will be used with db to get items from database
 - It use this **state** to make query to database to get list of downloades based on state 
-- `All fragment` will hold downloading and downloaded items this query do this Job 
-  ``` kotlin 
-   @Query("select * from ayahs where downloadSate != :state")
-      fun getAyahsInNonIdleSate(state: String): androidx.paging.DataSource.Factory<Int, AyahDownloadItem>
+- There are 3 fragments
+  - `ALL fragment` will hold downloading and downloaded items this query do this Job 
+    ``` kotlin 
+     @Query("select * from ayahs where downloadSate != :state")
+        fun getAyahsInNonIdleSate(state: String): androidx.paging.DataSource.Factory<Int, AyahDownloadItem>
 
-  ```
-  here it accepts `IDLE` as state so query will return all items that not in `IDLE` state (i.e  `DOWNLOADING`,`PAUSED`,`DONE`).
+    ```
+    here it accepts `IDLE` as state so query will return all items that not in `IDLE` state (i.e  `DOWNLOADING`,`PAUSED`,`DONE`).
 
-- `DOWNLOADING fragment` will hold downloading items (i.e  `DOWNLOADING`,`PAUSED`)
-- `DONE fragment` will hold downloaded items(i.e `DONE`)
+  - `DOWNLOADING fragment` will hold downloading items (i.e  `DOWNLOADING`,`PAUSED`)
+  - `DONE fragment` will hold downloaded items(i.e `DONE`)
 
 ## Actions 
 - At `DOWNLOADING fragment` it will shows actions to be perofrmed of file such as `pause`,`resume`,`cancel` 
@@ -131,7 +133,28 @@ data class AyahDownloadItem(
   - if file in downloading state so it currently downloading item so cancel it directly through **PR Downloader library**`PRDownloader.cancel(downID)`
   - else just change its state to `IDEL` to be not downloaded by **Service**.
 
+# 2.ListSurahFragment 
+- This fragment list Surah's names and count of ayahs of each one.
+- when user click on Sura it opens **ListAyahs** fragment and pass index of Sura.
 
+# 3.ListAyahs 
+- Accept `sura index` and **load** all ayahs from database. 
+- make query to get ayahs 
+``` kotlin 
+ @Query("select * from ayahs where surahIndex = :index order by number")
+    fun getAyahsOfSuraIndex(index: Int): androidx.paging.DataSource.Factory<Int, AyahDownloadItem>
+```
+- `btnAddALL` is button used to add all sura ayahs to queue of downloading, this down by 
+  - first it filter items that can be downloaded(i.e in`IDLE` state)
+  - then change state to `IN-QUEUE` 
+  ``` koltin 
+     list.filterNotNull()
+              .filter { it.downloadSate.equals(Constants.IDLE) }
+              .forEach {
+                  it.downloadSate = Constants.IN_QUEUE
+              }
+          model.updateitems(list)
+  ```
 
 ## Technologies
 Technology | Version
