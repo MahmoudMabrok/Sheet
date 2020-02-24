@@ -35,3 +35,20 @@ There are states of file (`IDEL`,`DOWNLOADING`,`PAUSED`,`DONE`)
 - when file **canceled** it remove it from queue also update in database to `IDEL`.
 - when file **completes** it update its state to `DONE` and look for queue if has elements start downloading them. 
 
+
+
+## Technologies
+Technology | Version
+---------- | -------
+Kotlin | 1.3.61
+lifecycle-viewmodel | 28.0.0
+retrofit2 | 2.5.0
+paging| 2.0.0
+Room| 2.0.0
+koin| 2.0.1
+rxjava2| 2.0.1
+gson | 2.8.5
+prdownloader | 0.4.0
+easypermissions|1.1.1
+
+
