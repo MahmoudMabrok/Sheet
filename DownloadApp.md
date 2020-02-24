@@ -123,6 +123,14 @@ data class AyahDownloadItem(
 - `DOWNLOADING fragment` will hold downloading items (i.e  `DOWNLOADING`,`PAUSED`)
 - `DONE fragment` will hold downloaded items(i.e `DONE`)
 
+## Actions 
+- At `DOWNLOADING fragment` it will shows actions to be perofrmed of file such as `pause`,`resume`,`cancel` 
+- Actions is down by **PR Downloader library** just pass download it for file and use proper method for example to pause an item `PRDownloader.pause(downID)`
+
+**NOTE** for **cancel action** there are **two cases**: 
+  - if file in downloading state so it currently downloading item so cancel it directly through **PR Downloader library**`PRDownloader.cancel(downID)`
+  - else just change its state to `IDEL` to be not downloaded by **Service**.
+
 
 
 ## Technologies
