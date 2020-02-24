@@ -6,7 +6,7 @@ an uitlity app to download ayahs of quran as **mp3**.
  <img src="https://user-images.githubusercontent.com/13488900/75140273-37205c80-56f7-11ea-942d-de99b6f8704a.png" width = 20%> <img src="https://user-images.githubusercontent.com/13488900/75140276-37205c80-56f7-11ea-9194-a38459573271.png" width = 20%> <img src="https://user-images.githubusercontent.com/13488900/75140262-32f43f00-56f7-11ea-9769-928b7332e95c.png" width = 20%>
  <img src="https://user-images.githubusercontent.com/13488900/75140269-35569900-56f7-11ea-8e54-9d1d1d28965a.png" width = 20%>
  <img src="https://user-images.githubusercontent.com/13488900/75140272-35ef2f80-56f7-11ea-9e3d-5a57d707c015.png" width = 20%>
- 
+ <img src = "https://user-images.githubusercontent.com/13488900/75148649-d6018480-5708-11ea-8f14-df0cf40fe74b.png" width= 20%>
   </div>
 
 
@@ -55,7 +55,7 @@ There are states of file (`IDEL`,`DOWNLOADING`,`PAUSED`,`DONE`,`IN-QUEUE` )
                   .setOnStartOrResumeListener(this)
                   .start(this)
   ```
-- add change ayah item state from `IDEL` to `DOWNLOADING`
+- change ayah item state from `IDEL` to `DOWNLOADING`
 ```
         item.downloadSate = Constants.DOWNLODING
         // add downID
