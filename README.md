@@ -1,5 +1,6 @@
 
 # Sheet
+[![HitCount](http://hits.dwyl.com/MahmoudMabrok/Sheet.svg)](http://hits.dwyl.com/MahmoudMabrok/Sheet)
 
 # Installation Guide
   - Flutter 
