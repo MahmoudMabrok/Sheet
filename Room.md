@@ -1,5 +1,5 @@
 # Room 
-The Room persistence library provides an abstraction layer over SQLite to allow for more robust database access while harnessing the full power of SQLite.
+The Room **persistence library** provides an abstraction layer over **SQLite** to allow for more robust database access while harnessing the full power of **SQLite**.
 
 # Issues & cases 
 ## 1.Sorting 
@@ -42,7 +42,7 @@ here it this `dao`method used to retrieve movies with some specific condition bu
 a brife for solution [Will be added]
 
 
-# using Same Entity for two Tables
+# 3.using Same Entity for two Tables
 I was need to store list of favourite movies, there was some ideas to do this
 1. add a **field** in Entity to specify it as Favourite and use a query to get these favourite 
 2. **duplicate** same Entity as different table 
@@ -55,9 +55,9 @@ Let's analyze both
 
 ## Second 
 - data will be saved even if movies was deleted 
-- a new table is created which is overhead also overhead to continue Movie into Favourite
+- a new table is created which is *overhead* also overhead to convert Movie into Favourite
 
-To Convert `Movie` into 'Favourite', I have used 
+To Convert `Movie` into `Favourite`, I have used 
 ``` kotlin 
   val str = Gson().toJson(viewModel.moviesSelected, MovieItem::class.java)
         val fav = Gson().fromJson<FavouriteItem>(str, FavouriteItem::class.java)
