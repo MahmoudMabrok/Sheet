@@ -29,11 +29,80 @@ There are states of file (`IDEL`,`DOWNLOADING`,`PAUSED`,`DONE`)
 - add this index to its queue
 - if no currently downloading item it starts else do nothing (as it added to list).
 - when it starts it allocate a path to file, make a name, call **PR Downloader library** to downlaod.
+  ```
+  PRDownloader.download(link, path, name)
+                  .build()
+                  .setOnCancelListener(this)
+                  .setOnPauseListener(this)
+                  .setOnProgressListener(this)
+                  .setOnStartOrResumeListener(this)
+                  .start(this)
+  ```
 - add change ayah item state from `IDEL` to `DOWNLOADING`
+```
+        item.downloadSate = Constants.DOWNLODING
+        // add downID
+        item.downID = downID
+        // update in db
+        repo.updateAyahItem(item)
+```
+
 - listen to updates of *downloading progress* and update progress in database for this item.
+  ``` koltin 
+          // handle size details
+          item.size = progress.totalBytes.div(1024) // as KB
+          item.downloadedBytes = progress.currentBytes // to resume
+          item.perecentage = progress.getPerecentage()
+
+          updateNotification(getTitle(), msg, progress.getPerecentage()) 
+
+          // update in db
+          repo.updateAyahItem(item)
+  ```
 - when file **paused** it update it in database to `PAUSED`
+  ``` koltin 
+          item.downloadSate = Constants.PAUSED
+          repo.updateAyahItem(item)
+  ```
 - when file **canceled** it remove it from queue also update in database to `IDEL`.
+  ``` koltin 
+          item.downloadSate = Constants.IDLE
+          repo.updateAyahItem(item)
+          // make state to not downloading to enable continue downloading other files
+          isDownloading = false
+          // remove from list 
+          val rem = list.removeAt(currentDownloadIndex)
+
+  ```
 - when file **completes** it update its state to `DONE` and look for queue if has elements start downloading them. 
+  ``` koltin 
+         // update state
+          item.downloadSate = Constants.DONE
+          // update percentage
+          item.perecentage = 100
+          // update in db
+          repo.updateAyahItem(item)
+  ```
+
+
+# Model in Database 
+This model used to store ayah text,index, sura, also downloading states and info 
+``` kotlin 
+@Entity(tableName = "ayahs")
+data class AyahDownloadItem(
+    @PrimaryKey
+    val number: Int,
+    val numberInSurah: Int,
+    val surahIndex: Int,
+    val text: String,
+    var path: String = "",
+    var downID: Int = -1,
+    var downloadSate: String = Constants.IDLE,
+    var downloadedBytes: Long = 0,
+    var perecentage: Int = 0,
+    var size: Long = 0
+)
+```
 
 
 
