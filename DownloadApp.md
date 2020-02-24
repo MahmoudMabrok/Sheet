@@ -103,6 +103,25 @@ data class AyahDownloadItem(
     var size: Long = 0
 )
 ```
+**downID**: used to control downloading of file (i.e used with library to `pause`,`resume`,`cancel`).
+
+
+# UI 
+
+## DownloadHolder 
+- Placeholder fragement that will be used with ViewPager to represent 3 Fragments (ALL,DOWNLOADING,DONE)
+- It accepts **state** as paramter which is used to distinct each fragment and will be used with db to get items from database
+- It use this **state** to make query to database to get list of downloades based on state 
+- `All fragment` will hold downloading and downloaded items this query do this Job 
+  ``` kotlin 
+   @Query("select * from ayahs where downloadSate != :state")
+      fun getAyahsInNonIdleSate(state: String): androidx.paging.DataSource.Factory<Int, AyahDownloadItem>
+
+  ```
+  here it accepts `IDLE` as state so query will return all items that not in `IDLE` state (i.e  `DOWNLOADING`,`PAUSED`,`DONE`).
+
+- `DOWNLOADING fragment` will hold downloading items (i.e  `DOWNLOADING`,`PAUSED`)
+- `DONE fragment` will hold downloaded items(i.e `DONE`)
 
 
 
@@ -110,7 +129,7 @@ data class AyahDownloadItem(
 Technology | Version
 ---------- | -------
 Kotlin | 1.3.61
-lifecycle-viewmodel | 28.0.0
+lifecycle-viewmodel | 2.0.0
 retrofit2 | 2.5.0
 paging| 2.0.0
 Room| 2.0.0
