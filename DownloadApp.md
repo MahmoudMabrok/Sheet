@@ -27,8 +27,24 @@ There are states of file (`IDEL`,`DOWNLOADING`,`PAUSED`,`DONE`,`IN-QUEUE` )
 
 ## Process 
 - when it start it accepts index of ayah to be downloaed 
+  ``` koltin 
+   super.onStartCommand(intent, flags, startId)
+          // get index of ayah sent in intent
+          val index = intent.getIntExtra(INDEX, -1)
+          startDownloading(index)
+  ```
 - add this index to its queue
+``` koltin 
+            val newItem = repo.getAyahItemByNumber(index)
+            // add to list
+            list.add(newItem)
+```
 - if no currently downloading item it starts else do nothing (as it added to list).
+```  koltin 
+            if (!isDownloading && list.size > 0) {
+                download()
+            }
+```
 - when it starts it allocate a path to file, make a name, call **PR Downloader library** to downlaod.
   ```
   PRDownloader.download(link, path, name)
