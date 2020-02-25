@@ -20,3 +20,13 @@ a subclass from ConstraintLayout, added to Cl 2.0
     ```
     - `attributeName`: name of attribute
     - `customColorValue`: type of value and its values (supported is`customColorValue`,`customIntegerValue`,`customStringValue`,`customDimension`,`customBoolean`,`customFloatValue`).
+
+
+# ImageFilterView 
+ImageFilterView (which is a subclass to AppCompatImageView) 
+- custome attributes allowed
+    - saturation : 0 = grayscale, 1 = original, 2 = hyper saturated
+    - contrast : 1 = unchanged, 0 = gray, 2 = high contrast
+    - warmth : 1 = neutral, 2 = warm (red tint), 0.5 = cold (blue tint)
+    - crossfade (with app:altSrc)
+
