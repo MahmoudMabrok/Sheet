@@ -1,5 +1,9 @@
 # MotionLayout 
 a subclass from ConstraintLayout, added to Cl 2.0 
+# At xml 
+`androidx.constraintlayout.motion.widget.MotionLayout`
+
+
 
 # Features 
 - control transitions 
@@ -30,3 +34,50 @@ ImageFilterView (which is a subclass to AppCompatImageView)
     - warmth : 1 = neutral, 2 = warm (red tint), 0.5 = cold (blue tint)
     - crossfade (with app:altSrc)
 
+
+# Integration with existing view 
+main idea is to control progress of Transition using Progress of existing view for 
+- AppBar we can listen to `onOffsetChanged` to change progress 
+``` kotlin 
+class CollapsibleToolbar @JvmOverloads constructor(
+        context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
+) : MotionLayout(context, attrs, defStyleAttr), AppBarLayout.OnOffsetChangedListener {
+
+    override fun onOffsetChanged(appBarLayout: AppBarLayout?, verticalOffset: Int) {
+        progress = -verticalOffset / appBarLayout?.totalScrollRange?.toFloat()!!
+        // start from 0 to 1 when it be collapsed
+        println("Progress $progress")
+    }
+
+    override fun onAttachedToWindow() {
+        super.onAttachedToWindow()
+        // parent here as  AppBarLayout that contains CollapsibleToolbar using `include`
+        (parent as? AppBarLayout)?.addOnOffsetChangedListener(this)
+    }
+}
+```
+- Drawer menue listen to `onDrawerSlide` to change progress 
+``` kotlin
+class DrawerContent @JvmOverloads constructor(
+        context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
+) : MotionLayout(context, attrs, defStyleAttr), DrawerLayout.DrawerListener {
+    override fun onDrawerStateChanged(newState: Int) {
+    }
+
+    override fun onDrawerSlide(drawerView: View, slideOffset: Float) {
+        progress = slideOffset
+        println("Progress $progress")
+    }
+
+    override fun onDrawerClosed(drawerView: View) {
+    }
+
+    override fun onDrawerOpened(drawerView: View) {
+    }
+
+    override fun onAttachedToWindow() {
+        super.onAttachedToWindow()
+        (parent as? DrawerLayout)?.addDrawerListener(this)
+    }
+}
+```
