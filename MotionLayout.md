@@ -84,3 +84,7 @@ class DrawerContent @JvmOverloads constructor(
 
 # Notes 
 - view must have **id** to be displayed even if view has all constraints. 
+
+# Attribtutes 
+- **percentWidth**: amount of change in width of view
+- **percentX**:amount of change in X position of view
