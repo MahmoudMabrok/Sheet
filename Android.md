@@ -11,11 +11,13 @@ you can simply right click your drawable folder, `select new->Vector asset` and 
 # Misc 
 
 - WakefulBroadcastReceiver 
-- This helper is for an old pattern of implementing a BroadcastReceiver that receives a device wakeup event and then passes the work off to a Service, while ensuring that the device does not go back to sleep during the transition.
+    - This helper is for an old pattern of implementing a BroadcastReceiver that receives a device wakeup event and then passes the work off to a Service, while ensuring that the device does not go back to sleep during the transition.
 
-- This class takes care of creating and managing a partial wake lock for you; you must request the WAKE_LOCK permission to use it.
-- This class was **deprecated in API level 26.1.0.**
-As of Android O, background check restrictions make this class no longer generally useful. (It is generally not safe to start a service from the receipt of a broadcast, because you don't have any guarantees that your app is in the foreground at this point and thus allowed to do so.) Instead, developers should use **android.app.job.JobScheduler** to schedule a job, and this **does not require** that the app hold a **wake lock** while doing so (the system will take care of holding a wake lock for the job).
+    - This class takes care of creating and managing a partial wake lock for you; you must request the WAKE_LOCK permission to use it.
+    - This class was **deprecated in API level 26.1.0.**
+    As of Android O, background check restrictions make this class no longer generally useful. (It is generally not safe to start a service from the receipt of a broadcast, because you don't have any guarantees that your app is in the foreground at this point and thus allowed to do so.) Instead, developers should use **android.app.job.JobScheduler** to schedule a job, and this **does not require** that the app hold a **wake lock** while doing so (the system will take care of holding a wake lock for the job).
+
+- For exact timing, you should absolutely be using AlarmManagerCompat and specifically, setExactAndAllowWhileIdle() which fires an alarm at exactly the specified time on all API levels.
 
 
 
