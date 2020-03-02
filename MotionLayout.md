@@ -84,6 +84,8 @@ class DrawerContent @JvmOverloads constructor(
 
 # Notes 
 - view must have **id** to be displayed even if view has all constraints. 
+- **KeyPosition** is used to specify changes in width, height and x,y coordinates
+- So, if you want to have a keyframe that specifies something at the start of any transition, use framePosition = 1 instead.
 
 # Attribtutes 
 - **percentWidth**: amount of change in width of view
