@@ -44,6 +44,13 @@
 - `Process unexpectedly exit.` => downgrade version of gradle to `classpath 'com.android.tools.build:gradle:3.3.2'`
 
 
+# Git 
+- initial setup 
+  ```
+  $ git config --global user.name "John Doe"
+  $ git config --global user.email johndoe@example.com
+  ```
+
 # Resources 
 
 - Firebase 
