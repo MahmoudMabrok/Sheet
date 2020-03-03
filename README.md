@@ -42,7 +42,12 @@
     - Contiune process. 
 # Android 
 - `Process unexpectedly exit.` => downgrade version of gradle to `classpath 'com.android.tools.build:gradle:3.3.2'`
-
+- 
+  ```
+  try to change the compileSdkVersion to:
+  compileSdkVersion 28
+  fontVariationSettings added in api level 28
+  ```
 
 # Git 
 - initial setup 
