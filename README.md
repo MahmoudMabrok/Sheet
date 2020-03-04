@@ -48,6 +48,7 @@
   compileSdkVersion 28
   fontVariationSettings added in api level 28
   ```
+- `.ClassNotFoundException: android.view.View$OnUnhandledKeyEventListener`  --> 
 
 # libararies 
 - [ReadMoreTextView](https://github.com/MahmoudMabrok/ReadMoreTextView)
