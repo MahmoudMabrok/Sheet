@@ -49,6 +49,8 @@
   fontVariationSettings added in api level 28
   ```
 
+# libararies 
+- [ReadMoreTextView](https://github.com/MahmoudMabrok/ReadMoreTextView)
 # Git 
 - initial setup 
   ```
