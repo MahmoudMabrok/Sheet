@@ -19,6 +19,17 @@ you can simply right click your drawable folder, `select new->Vector asset` and 
 
 - For exact timing, you should absolutely be using AlarmManagerCompat and specifically, setExactAndAllowWhileIdle() which fires an alarm at exactly the specified time on all API levels.
 
+# Touch Handling
+- when touch event is fired **all views got notified**
+- Then everyone is given a **chance to handle the event**, starting with the **view** on top and going all the way back to the **Activity**
+- If a View (or a ViewGroup) *has an OnTouchListener*, then the touch event is handled by **OnTouchListener.onTouch()**. Otherwise it is handled by **onTouchEvent()**. If *onTouchEvent()* returns **true** for any touch event, then the handling **stops there**. No one else down the line gets a chance at it.
+- The **ViewGroup** will notify **any children** it has of the touch event, including any ViewGroup children.
+
+- Resources
+    - [Manage touch events in a ViewGroup](https://developer.android.com/training/gestures/viewgroup.html)
+    - [Mastering the Android Touch System](https://www.youtube.com/watch?v=EZAoJU-nUyI)
+    - [Android UI Internal : Pipeline of View's Touch Event Handling](https://pierrchen.blogspot.com/2014/03/pipeline-of-android-touch-event-handling.html)
+    - [231 Android onTouchEvent Part 1](https://www.youtube.com/watch?v=SYoN-OvdZ3M)
 
 
 
