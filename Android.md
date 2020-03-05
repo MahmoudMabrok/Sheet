@@ -24,12 +24,95 @@ you can simply right click your drawable folder, `select new->Vector asset` and 
 - Then everyone is given a **chance to handle the event**, starting with the **view** on top and going all the way back to the **Activity**
 - If a View (or a ViewGroup) *has an OnTouchListener*, then the touch event is handled by **OnTouchListener.onTouch()**. Otherwise it is handled by **onTouchEvent()**. If *onTouchEvent()* returns **true** for any touch event, then the handling **stops there**. No one else down the line gets a chance at it.
 - The **ViewGroup** will notify **any children** it has of the touch event, including any ViewGroup children.
+- Be aware that Event Listener is called before Event Handler,
+- if Event Listener returns true, Event Handler won't be called
+
+
 
 - Resources
     - [Manage touch events in a ViewGroup](https://developer.android.com/training/gestures/viewgroup.html)
     - [Mastering the Android Touch System](https://www.youtube.com/watch?v=EZAoJU-nUyI)
     - [Android UI Internal : Pipeline of View's Touch Event Handling](https://pierrchen.blogspot.com/2014/03/pipeline-of-android-touch-event-handling.html)
     - [231 Android onTouchEvent Part 1](https://www.youtube.com/watch?v=SYoN-OvdZ3M)
+    
+- Images 
+
+<div>
+<img src="https://user-images.githubusercontent.com/13488900/75970538-292dc100-5ed9-11ea-8200-eaeb39817269.png" /> 
+<img src="https://user-images.githubusercontent.com/13488900/75976189-9db92d80-5ee2-11ea-97bd-c7b600233e23.png" />       
+</div>    
+
+- Code 
+    ``` java
+    public class MyViewGroup extends ViewGroup {
+
+        private int mTouchSlop;
+
+        ...
+
+        ViewConfiguration vc = ViewConfiguration.get(view.getContext());
+        mTouchSlop = vc.getScaledTouchSlop();
+
+        ...
+
+        @Override
+        public boolean onInterceptTouchEvent(MotionEvent ev) {
+            /*
+             * This method JUST determines whether we want to intercept the motion.
+             * If we return true, onTouchEvent will be called and we do the actual
+             * scrolling there.
+             */
 
 
+            final int action = MotionEventCompat.getActionMasked(ev);
+
+            // Always handle the case of the touch gesture being complete.
+            if (action == MotionEvent.ACTION_CANCEL || action == MotionEvent.ACTION_UP) {
+                // Release the scroll.
+                mIsScrolling = false;
+                return false; // Do not intercept touch event, let the child handle it
+            }
+
+            switch (action) {
+                case MotionEvent.ACTION_MOVE: {
+                    if (mIsScrolling) {
+                        // We're currently scrolling, so yes, intercept the
+                        // touch event!
+                        return true;
+                    }
+
+                    // If the user has dragged her finger horizontally more than
+                    // the touch slop, start the scroll
+
+                    // left as an exercise for the reader
+                    final int xDiff = calculateDistanceX(ev);
+
+                    // Touch slop should be calculated using ViewConfiguration
+                    // constants.
+                    if (xDiff > mTouchSlop) {
+                        // Start scrolling!
+                        mIsScrolling = true;
+                        return true;
+                    }
+                    break;
+                }
+                ...
+            }
+
+            // In general, we don't want to intercept touch events. They should be
+            // handled by the child view.
+            return false;
+        }
+
+        @Override
+        public boolean onTouchEvent(MotionEvent ev) {
+            // Here we actually handle the touch event (e.g. if the action is ACTION_MOVE,
+            // scroll this container).
+            // This method will only be called if the touch event was intercepted in
+            // onInterceptTouchEvent
+            ...
+        }
+    }
+
+    ```
 
