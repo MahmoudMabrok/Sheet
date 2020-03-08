@@ -52,6 +52,7 @@
 
 # libararies 
 - [ReadMoreTextView](https://github.com/MahmoudMabrok/ReadMoreTextView)
+- [Android-Image-Slider](https://github.com/smarteist/Android-Image-Slider)
 # Git 
 - initial setup 
   ```
