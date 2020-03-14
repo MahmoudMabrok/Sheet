@@ -9,6 +9,21 @@ you can simply right click your drawable folder, `select new->Vector asset` and 
 
 
 # Misc 
+- ENABLE MultiDex
+    - multiDexEnabled true
+    - implementation 'com.android.support:multidex:1.0.3'
+    - `class MyApplication : MultiDexApplication() {...}`
+    - 
+    ``` kotlin 
+    class MyApplication : SomeOtherApplication() {
+
+        override fun attachBaseContext(base: Context) {
+            super.attachBaseContext(base)
+            MultiDex.install(this)
+        }
+    }
+    ```
+
 
 - WakefulBroadcastReceiver 
     - This helper is for an old pattern of implementing a BroadcastReceiver that receives a device wakeup event and then passes the work off to a Service, while ensuring that the device does not go back to sleep during the transition.
