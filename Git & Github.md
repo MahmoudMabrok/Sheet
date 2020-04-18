@@ -18,3 +18,10 @@
 - Not use it with public branch 
 - Cause problems when working with teams and may lose work 
 - Check guidelines of teams(some teams not prefere rebase )
+
+- used to clean history
+- `squash`: make multiple commits into single commit 
+- Steps 
+- git all commits `git log --oneline`
+- git base commit `git merge-base source target`, `source`: current branch `target`:branch you want to be base i.e oldest base commit 
+- after prev command you will git an ID use it here: `git rebase -i lastCommitID`
