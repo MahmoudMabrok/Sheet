@@ -54,3 +54,48 @@
 - `git diff commit commit`: changes between these commits 
 - `git diff branch branch`: changes between these branches 
 - `git diff feature..master`: what changed at master after feature offed from master
+- `git diff feature master file.txt`: what changed to file.txt  bettween feature,master
+
+## Convensions
+- use **samller commits** rather than one big commit
+- use same **.gitignore** file
+- use branches make testing is easy, branch that is success with test being merged to master 
+
+## Commits
+- use commit with related changes 
+- use a proper message name for commit 
+- add body of it propriate 
+- **Empty spaces** git count them as changes and may cause errors, so format code before submit it 
+- **Line Ending** it differs from OS to another so prefer to enforce one for all team
+
+## Pull Request
+- when finish your work push to remote 
+- make pull request to master for example 
+- add reviewers 
+- when he approve, it be ,erged to master 
+
+## Merge Conflicts
+- occurs when files changed at both branches, git can not determine how to combine them 
+- it marks files, let you combine and commit them again and make **merge commit**
+- **merge commit**: is a commit has two parent commits. 
+
+## Merge tips 
+- pull latest changes from remote before merge
+- when solve conflict add it as seprate commit (to make it easy to return if want to abort merge).
+- you will get this with conflict 
+  ```
+  <<<<HEAD
+  1
+  2
+  ======
+  4
+  5
+  >>>>> master
+  ```
+  `======` is serartor,
+  `above` is current code ,
+  `below` is master code, **then**
+  `you should combine them as you want, save, and commit`
+  
+  
+
