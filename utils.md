@@ -5,3 +5,4 @@ setTimeout(function(){
 c = c +1 ; 
 r.click();} , 1500 * c);
 })
+window.loaction.reload();
