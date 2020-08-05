@@ -40,7 +40,21 @@
     - go to `bin` directory 
     - open terminal and type `./studio.sh`
     - Contiune process. 
-    
+
+- Postman 
+    ```
+    Download Postman by running following command in your Linux system:
+
+    wget https://dl.pstmn.io/download/latest/linux64 -O postman-linux-x64.tar.gz
+
+    Extract the downloaded file by running the following command in /opt directory:
+
+    sudo tar -xvzf postman-linux-x64.tar.gz -C /opt
+
+    Finally, create a symbolic link running following command in terminal:
+
+    sudo ln -s /opt/Postman/Postman /usr/bin/postman
+    ```     
     
 - Time doctor on linux 
   - downlaod it from here [website](https://www.timedoctor.com/download.html)    
