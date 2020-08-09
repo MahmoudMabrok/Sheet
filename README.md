@@ -59,6 +59,9 @@
 - Time doctor on linux 
   - downlaod it from here [website](https://www.timedoctor.com/download.html)    
   - make downloaded file excutable 
+- Python
+- `sudo apt-get install python3-distutils`, `sudo apt-get install python3-apt`
+ 
     
 # Android 
 - `Process unexpectedly exit.` => downgrade version of gradle to `classpath 'com.android.tools.build:gradle:3.3.2'`
