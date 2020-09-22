@@ -83,6 +83,19 @@
   $ git config --global user.email johndoe@example.com
   ```
 - un-commit last commit `git reset --soft HEAD^`
+- 
+  ```
+  .gitignore will prevent untracked files from being added (without an add -f) to the set of files tracked by git, however git will continue to track any files that are already being tracked.
+
+  To stop tracking a file you need to remove it from the index. This can be achieved with this command.
+
+  git rm --cached <file>
+
+  If you want to remove a whole folder, you need to remove all files in it recursively.
+
+  git rm -r --cached <folder>
+
+  ```
 
 # Resources 
 
