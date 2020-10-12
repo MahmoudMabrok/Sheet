@@ -73,6 +73,27 @@
   ```
 - `.ClassNotFoundException: android.view.View$OnUnhandledKeyEventListener`  --> 
 
+- `More than one file was found with OS independent path 'META-INF/atomicfu.kotlin_module'` --> 
+```
+android {
+    compileSdkVersion 29
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+  /*  packagingOptions {
+        pickFirst 'META-INF/kotlinx-io.kotlin_module'
+        pickFirst 'META-INF/atomicfu.kotlin_module'
+        pickFirst 'META-INF/kotlinx-coroutines-io.kotlin_module'
+        pickFirst 'META-INF/library_release.kotlin_module'
+    }*/
+
+}
+```
+
+
+
 # libararies 
 - [ReadMoreTextView](https://github.com/MahmoudMabrok/ReadMoreTextView)
 - [Android-Image-Slider](https://github.com/smarteist/Android-Image-Slider)
