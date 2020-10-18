@@ -130,4 +130,44 @@ you can simply right click your drawable folder, `select new->Vector asset` and 
     }
 
     ```
+# Sign in with Apple using Firebase 
+- enable apple as sign in method from firebase console 
+- code 
+      
+``` kotlin
 
+        // make provider 
+        val provider = OAuthProvider.newBuilder("apple.com")
+        provider.scopes = arrayOf("email", "name").toMutableList()
+
+        // sign out if already logged (recommended)
+        val user = FirebaseAuth.getInstance().currentUser
+            if (user == null) {
+                login(provider)
+            } else {
+                FirebaseAuth.getInstance().signOut()
+                AuthUI.getInstance()
+                    .signOut(this)
+                    .addOnCompleteListener {
+                        login(provider)
+                    }
+            }
+
+        // login 
+        FirebaseAuth.getInstance().startActivityForSignInWithProvider(this, provider.build())
+                .addOnSuccessListener { authResult ->
+                    // Sign-in successful!
+
+                    authResult.user?.display()
+
+                    authResult.user?.getIdToken(true)?.addOnSuccessListener {
+                        Log.d(TAG, "token ${it.token}")
+                    }
+
+
+                }
+                .addOnFailureListener { e ->
+                    Log.w(TAG, "activitySignIn:onFailure", e)
+                }
+
+```
