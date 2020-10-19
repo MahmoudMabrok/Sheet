@@ -171,3 +171,75 @@ you can simply right click your drawable folder, `select new->Vector asset` and 
                 }
 
 ```
+
+# Exo-Player 
+- 
+```
+    implementation 'com.google.android.exoplayer:exoplayer-core:2.11.8'
+    implementation 'com.google.android.exoplayer:exoplayer-dash:2.11.8'
+    implementation 'com.google.android.exoplayer:exoplayer-ui:2.11.8'
+
+    implementation 'com.github.HaarigerHarald:android-youtubeExtractor:master-SNAPSHOT'
+
+```
+- 
+```
+
+class VideoController(val video_view: PlayerView) {
+    private var playWhenReady = true
+    private var currentWindow = 0
+    private var playbackPosition: Long = 0
+
+    var player: ExoPlayer? = null
+
+
+    fun initializePlayer(ctx: Context, url:String? ) {
+        player = SimpleExoPlayer.Builder(ctx).build()
+        video_view.player = player
+        val mediaSource = buildMediaSource(ctx,Uri.parse(url ?: ""))
+        player?.playWhenReady = playWhenReady
+        player?.seekTo(currentWindow, playbackPosition)
+        player?.prepare(mediaSource, false, false)
+    }
+
+    private fun buildMediaSource(ctx: Context, uri: Uri): MediaSource {
+        //todo what userAgment?
+        val dataSourceFactory: DataSource.Factory =
+            DefaultDataSourceFactory(ctx, "exoplayer-codelab")
+
+        return ProgressiveMediaSource.Factory(dataSourceFactory)
+            .createMediaSource(uri)
+    }
+
+    fun releasePlayer() {
+        if (player != null) {
+            playWhenReady = player!!.playWhenReady
+            playbackPosition = player!!.currentPosition
+            currentWindow = player!!.currentWindowIndex
+            player!!.release()
+            player = null
+        }
+    }
+
+}
+
+```
+
+- 
+```
+  object : YouTubeExtractor(requireContext()) {
+            @SuppressLint("StaticFieldLeak")
+            override fun onExtractionComplete(
+                ytFiles: SparseArray<YtFile>,
+                vMeta: VideoMeta
+            ) {
+                if (ytFiles != null) {
+                    val itag = 22
+                    val downloadUrl = ytFiles[itag].url
+                    videoController.initializePlayer(requireContext(),downloadUrl)
+                }
+            }
+        }.extract(url2, true, true)
+
+
+```
