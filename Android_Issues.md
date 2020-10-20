@@ -30,3 +30,5 @@ android {
 
 }
 ```
+# shadow/elevation 
+- may not work, try to ` android:stateListAnimator="@null"`
