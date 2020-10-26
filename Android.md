@@ -243,3 +243,26 @@ class VideoController(val video_view: PlayerView) {
 
 
 ```
+
+# Edit text 
+## hide underline text
+` android:background="@null"`
+
+## do action when click on IME ACTION 
+```kotlin
+
+    private fun doOnIME(
+        view: EditText,
+        actionType: Int,
+        action: () -> Unit
+    ) {
+        view.setOnEditorActionListener { _, actionId, _ ->          
+            if (actionId == actionType) {
+                // do Action
+                action()
+
+            }
+            return@setOnEditorActionListener true
+        }
+    }
+```
