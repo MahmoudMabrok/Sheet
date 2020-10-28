@@ -266,3 +266,8 @@ class VideoController(val video_view: PlayerView) {
         }
     }
 ```
+
+# facenook integration 
+- get base64 from [here](https://tomeko.net/online_tools/hex_to_base64.php)
+- add it to `Facebook console ->  Settings -> Basic -> Android -> Key hashes`
+- for `Class Name` -> we add ***Launcher activity**
