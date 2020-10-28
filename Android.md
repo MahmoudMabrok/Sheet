@@ -271,3 +271,4 @@ class VideoController(val video_view: PlayerView) {
 - get base64 from [here](https://tomeko.net/online_tools/hex_to_base64.php)
 - add it to `Facebook console ->  Settings -> Basic -> Android -> Key hashes`
 - for `Class Name` -> we add ***Launcher activity**
+- use this to accept request as tester/developer with facebook app [requests](https://developers.facebook.com/requests/)
