@@ -23,3 +23,7 @@ android {
 ```
 # shadow/elevation 
 - may not work, try to ` android:stateListAnimator="@null"`
+
+## Entry name 'META-INF/lifecycle-livedata-ktx_release.kotlin_module' collided
+clear  & rebuild 
+
