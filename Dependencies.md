@@ -10,6 +10,8 @@
 # ViewModel
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
     implementation "androidx.lifecycle:lifecycle-process:2.2.0"    
+    implementation "androidx.fragment:fragment-ktx:1.2.5"
+    implementation "androidx.lifecycle:lifecycle-extensions:2.0.0"
 
 
 # Changing Styles
