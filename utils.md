@@ -72,3 +72,16 @@ fun parse(baseLink: String) {
 
 
 ```
+
+# Youtube Linker 
+
+```
+document.querySelectorAll('a.yt-simple-endpoint.style-scope.ytd-playlist-video-renderer').forEach(function(element){
+console.log("link " + element["href"] + " title " + element.querySelector("#video-title")["title"]);
+
+});
+
+
+
+```
+
