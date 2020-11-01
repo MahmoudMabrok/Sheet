@@ -76,12 +76,16 @@ fun parse(baseLink: String) {
 # Youtube Linker 
 
 ```
+let data = [] 
 document.querySelectorAll('a.yt-simple-endpoint.style-scope.ytd-playlist-video-renderer').forEach(function(element){
-console.log("link " + element["href"] + " title " + element.querySelector("#video-title")["title"]);
-
+let title = element.querySelector("#video-title")["title"];
+let url = element["href"];
+console.log("link " + url + " title " + title );
+data.push({group:"الدورة التأهيلية الثالثة عشر للحياة الزوجية
+", name: title , url: url});
 });
 
-
+let stro = JSON.stringify(data);
 
 ```
 
