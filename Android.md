@@ -272,3 +272,14 @@ class VideoController(val video_view: PlayerView) {
 - add it to `Facebook console ->  Settings -> Basic -> Android -> Key hashes`
 - for `Class Name` -> we add ***Launcher activity**
 - use this to accept request as tester/developer with facebook app [requests](https://developers.facebook.com/requests/)
+
+# check if user has installed a recording app 
+``` kotlin
+    val apps: List<PackageInfo> = context.packageManager.getInstalledPackages(0)
+        val recordingApps = apps.filter {
+            Logger.log("MiscUtils isHaveRecordingAppRunning: installed ${it.packageName} ")
+            it.packageName.contains("recorder") or
+                    it.applicationInfo.name.toLowerCase(Locale.ENGLISH).contains("recorder")
+        }
+        return recordingApps.isNotEmpty()
+```
