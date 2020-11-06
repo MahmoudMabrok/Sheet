@@ -81,11 +81,9 @@ document.querySelectorAll('a.yt-simple-endpoint.style-scope.ytd-playlist-video-r
 let title = element.querySelector("#video-title")["title"];
 let url = element["href"];
 console.log("link " + url + " title " + title );
-data.push({group:"الدورة التأهيلية الثالثة عشر للحياة الزوجية
-", name: title , url: url});
+data.push({group:"", name: title , url: url});
 });
 
 let stro = JSON.stringify(data);
-
 ```
 
