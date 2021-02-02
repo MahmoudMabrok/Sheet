@@ -3,60 +3,6 @@ https://www.coursera.org/learn/aws-cloud-practitioner-essentials/home/welcome
 https://www.coursera.org/learn/launch-online-business/home/welcome
 
 
-Algym 
-
-https://inovaeg2.atlassian.net/secure/RapidBoard.jspa?rapidView=8&projectKey=GYM&assignee=5e380d6a387bb00cb2bbc1d1
-
-=================================================
-with google account id = 274 
-with email id = 334
-Dollar 
-https://bitbucket.org/inova_eg/dollarchat-android/branches/
-
-https://inovaeg3.atlassian.net/browse/DOL-145
-
-using admin panel http://18.158.238.216/admin/login
-email: 'admin@dollarchat.com',
-password: 'adminpassword'
-
-https://docs.google.com/document/d/1zp2R7UPyPDjgOVMUZl5nZeCprhff75v0KDrCxy_68pU/edit
-
-https://app.zeplin.io/project/56d5d3b1673b81c90869a9ce/dashboard?tag=.Dollar%20Chat
-============================
-smart 
-
-https://bitbucket.org/inova_eg/smart_vision_android/branches/
-
-admin@example.com
-password
-
-
-
-================================= 
-first acadmey 
-For servers ele e7na sh8aleen 3leha f el production :
-Backend(production)-> api.firstacademy.co/admin  -> IP 52.47.83.169
-website(production)-> firstacademy.co -> IP 52.47.55.40For staging:
-
-
-Backend -> almanasaapistaging.inovaeg.com/admin -> IP 35.181.95.101
-website -> http://almanasastaging.inovaeg.com/ -> IP 52.47.197.48
-=============================================
-
-
-val crashButton = Button(this)
-crashButton.text = "Crash!"
-crashButton.setOnClickListener {
-    throw RuntimeException("Test Crash") // Force a crash
-}
-
-addContentView(crashButton, ViewGroup.LayoutParams(
-    ViewGroup.LayoutParams.MATCH_PARENT,
-    ViewGroup.LayoutParams.WRAP_CONTENT))
-
-https://stackoverflow.com/questions/65114070/response-of-google-direction-api-miss-some-steps
-
-
 
 
 personal links 
