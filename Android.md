@@ -1,5 +1,9 @@
 # Table of content 
 - [ViewHolder](#ViewHolder)
+- [Vector Drawable ](#Vector-Drawable )
+- [Misc](#Misc)
+- [Touch Handling](#Touch-Handling)
+- [Sign in with Apple using Firebase](#Sign-in-with-Apple-using-Firebase)
 
 
 # ViewHolder 
