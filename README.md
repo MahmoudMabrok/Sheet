@@ -1,6 +1,5 @@
 
 # Sheet
-[![HitCount](http://hits.dwyl.com/MahmoudMabrok/Sheet.svg)](http://hits.dwyl.com/MahmoudMabrok/Sheet)
 
 # Installation Guide
   - Flutter 
@@ -64,10 +63,11 @@
  
   
 
-
 # libararies 
 - [ReadMoreTextView](https://github.com/MahmoudMabrok/ReadMoreTextView)
 - [Android-Image-Slider](https://github.com/smarteist/Android-Image-Slider)
+
+
 # Git 
 - initial setup 
   ```
@@ -113,10 +113,11 @@
 - Performance tools 
   - [nimbledroid](https://nimbledroid.com/)
   
-  
-  
-  sudo xrandr --newmode "1680x1050_60.00"  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync
+- Script to add display 
+```    
+sudo xrandr --newmode "1680x1050_60.00"  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync
 sudo xrandr --addmode VGA-1 "1680x1050_60.00"
+```
 
 
 # tools 
