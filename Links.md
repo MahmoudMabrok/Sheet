@@ -14,3 +14,6 @@
 - [Malware ](https://www.facebook.com/vs.viro/posts/584024422273924)
 - [Reverse Engineer](https://www.facebook.com/vs.viro/posts/508599133149787)
 - [DevOps road map](https://www.linkedin.com/posts/haythamm3wadallah_developer-roadmaps-activity-6793318265348247552-xCNE)
+
+# Android links 
+- [date-and-time-patterns](https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns)
