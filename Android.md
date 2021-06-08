@@ -291,3 +291,18 @@ class VideoController(val video_view: PlayerView) {
         }
         return recordingApps.isNotEmpty()
 ```
+
+
+## Localization 
+```
+kotlin 
+ fun localizeContext(context: Context): ContextWrapper {
+        val local = Locale(SharedPrefsHelper.language)
+        Locale.setDefault(local)
+        Configuration(context.resources.configuration).apply {
+            setLocale(local)
+            setLayoutDirection(local)
+            return ContextWrapper(context.createConfigurationContext(this))
+        }
+    }
+```
