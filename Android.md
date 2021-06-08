@@ -294,8 +294,8 @@ class VideoController(val video_view: PlayerView) {
 
 
 ## Localization 
-```
-kotlin 
+``` kotlin 
+
  fun localizeContext(context: Context): ContextWrapper {
         val local = Locale(SharedPrefsHelper.language)
         Locale.setDefault(local)
