@@ -320,3 +320,17 @@ class VideoController(val video_view: PlayerView) {
     </style>
 
 ```
+## Change selected item background 
+
+```
+<com.google.android.material.navigation.NavigationView  
+        android:theme="@style/NavigationDrawerSelection"
+       />
+       
+       
+     
+        <style name="NavigationDrawerSelection" parent="ThemeOverlay.AppCompat.Light">
+            <item name="colorControlHighlight">#B303A9F4</item>
+        </style>
+
+```
