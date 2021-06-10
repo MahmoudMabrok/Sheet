@@ -306,3 +306,17 @@ class VideoController(val video_view: PlayerView) {
         }
     }
 ```
+
+# DrawerLayout 
+## change burger menu color 
+```
+ <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/black</item>
+    </style>
+
+```
