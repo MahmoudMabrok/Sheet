@@ -4,6 +4,7 @@
 - [kotlin-bestpractices-constants](https://www.linkedin.com/posts/mahmoud-mabrouk-fouad_android-kotlin-bestpractices-activity-6752301292313436160-fDP1)
 - [mobile dev debate](https://www.facebook.com/sprintsai/videos/mobile-development-debate/692799318097966/)
 - [certification aad](https://www.linkedin.com/posts/mahmoud-mabrouk-fouad_android-google-andela-activity-6779084378736746496-bNRT)
+- [CV](https://www.linkedin.com/posts/mahmoud-mabrouk-fouad_mahmoudmabroukresume-activity-6808064496213491712-110u)
 
 # Job prepare 
 - [linkedin-handbook-get-your-first-dev-job](https://www.freecodecamp.org/news/linkedin-handbook-get-your-first-dev-job/)
