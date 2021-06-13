@@ -55,10 +55,12 @@
     volatile <fields>;
 }
 
+
+```
+
 # model classes 
 
 -keep class yourpackage.models.requests.* {*; }
+
 -keep class yourpackage.models.responses.* {*; }
 
-
-```
