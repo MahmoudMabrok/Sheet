@@ -18,3 +18,4 @@
 
 # Android links 
 - [date-and-time-patterns](https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns)
+- [fragments-common-queries](https://proandroiddev.com/android-fragments-common-queries-common-mistakes-df2014da0b50)
