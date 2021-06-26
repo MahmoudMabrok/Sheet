@@ -11,10 +11,11 @@
 - [hasankhan - work](https://www.linkedin.com/posts/hasankhan_we-also-discussed-in-the-last-video-that-activity-6775880248971149312-TNz2)
 - [CV + ATS](https://www.youtube.com/watch?v=LV8R25PY3dc)
 
-# Learning rsource 
+# Learning rثsource 
 - [Malware ](https://www.facebook.com/vs.viro/posts/584024422273924)
 - [Reverse Engineer](https://www.facebook.com/vs.viro/posts/508599133149787)
 - [DevOps road map](https://www.linkedin.com/posts/haythamm3wadallah_developer-roadmaps-activity-6793318265348247552-xCNE)
+- [SOLID](https://www.linkedin.com/posts/mr-osama-mustafa_%D8%AF%D9%88%D9%84-3-%D9%85%D8%B5%D8%A7%D8%AF%D8%B1-%D8%B3%D8%A7%D8%B9%D8%AF%D9%88%D9%86%D9%8A-%D8%A2%D8%AE%D8%AF-%D8%B5%D9%88%D8%B1%D8%A9-%D8%B9%D8%A7%D9%85%D8%A9-%D8%B9%D9%86-%D8%A7%D9%84%D9%80-activity-6812390811431407617-N0aD)
 
 # Android links 
 - [date-and-time-patterns](https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns)
