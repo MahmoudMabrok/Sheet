@@ -18,6 +18,12 @@
      _binding = ResultProfileBinding.inflate(inflater, container, false)
         val view = binding.root
         return view
+        
+        
+        override fun onDestroyView() {
+    super.onDestroyView()
+    _binding = null
+}
     ```
 
 # Material Button 
