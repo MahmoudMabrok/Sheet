@@ -6,7 +6,19 @@
 - [Sign in with Apple using Firebase](#Sign-in-with-Apple-using-Firebase)
 
 # ViewBinding 
--[view-binding](https://developer.android.com/topic/libraries/view-binding/migration#gradle)
+- add gradle 
+    ```
+       buildFeatures {
+            viewBinding = true
+        }
+    ```
+- for activity `binding = ResultProfileBinding.inflate(layoutInflater)` 
+- for fragment
+    ```
+     _binding = ResultProfileBinding.inflate(inflater, container, false)
+        val view = binding.root
+        return view
+    ```
 
 # Material Button 
 - MaterialButton uses colorPrimary as background when button is in active state and colorOnSurface. 
