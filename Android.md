@@ -5,6 +5,9 @@
 - [Touch Handling](#Touch-Handling)
 - [Sign in with Apple using Firebase](#Sign-in-with-Apple-using-Firebase)
 
+# ViewBinding 
+-[view-binding](https://developer.android.com/topic/libraries/view-binding/migration#gradle)
+
 # Material Button 
 - MaterialButton uses colorPrimary as background when button is in active state and colorOnSurface. 
 
