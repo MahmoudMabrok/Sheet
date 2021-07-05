@@ -5,6 +5,7 @@
 - [mobile dev debate](https://www.facebook.com/sprintsai/videos/mobile-development-debate/692799318097966/)
 - [certification aad](https://www.linkedin.com/posts/mahmoud-mabrouk-fouad_android-google-andela-activity-6779084378736746496-bNRT)
 - [CV](https://www.linkedin.com/posts/mahmoud-mabrouk-fouad_mahmoudmabroukresume-activity-6808064496213491712-110u)
+- [Learning android](https://www.linkedin.com/feed/update/urn:li:activity:6816832955021848576/?fbclid=IwAR0hDw7HxTAmJrYh1AXP3KNhXDnfr6D0y74XigxDRJL6ucFVwlGk67Ce5L8)
 
 # Job prepare 
 - [linkedin-handbook-get-your-first-dev-job](https://www.freecodecamp.org/news/linkedin-handbook-get-your-first-dev-job/)
