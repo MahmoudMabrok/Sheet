@@ -16,6 +16,7 @@
 - [Reverse Engineer](https://www.facebook.com/vs.viro/posts/508599133149787)
 - [DevOps road map](https://www.linkedin.com/posts/haythamm3wadallah_developer-roadmaps-activity-6793318265348247552-xCNE)
 - [SOLID](https://www.linkedin.com/posts/mr-osama-mustafa_%D8%AF%D9%88%D9%84-3-%D9%85%D8%B5%D8%A7%D8%AF%D8%B1-%D8%B3%D8%A7%D8%B9%D8%AF%D9%88%D9%86%D9%8A-%D8%A2%D8%AE%D8%AF-%D8%B5%D9%88%D8%B1%D8%A9-%D8%B9%D8%A7%D9%85%D8%A9-%D8%B9%D9%86-%D8%A7%D9%84%D9%80-activity-6812390811431407617-N0aD)
+- [learning ooa + ood + solid](https://www.linkedin.com/posts/ahusseinali_%D8%A7%D8%AA%D8%B9%D9%84%D9%85-%D8%A7%D8%B2%D8%A7%D9%8A-object-oriented-programming-activity-6816176636887736320-Z8sA)
 
 # Android links 
 - [date-and-time-patterns](https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns)
