@@ -88,6 +88,10 @@
   git rm -r --cached <folder>
 
   ```
+  
+  
+# Python 
+- [dealing-with-multiple-python-versions-and-pip](https://stackoverflow.com/questions/2812520/dealing-with-multiple-python-versions-and-pip)  
 
 # Resources 
 
