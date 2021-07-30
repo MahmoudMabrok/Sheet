@@ -20,6 +20,7 @@
 - [learning ooa + ood + solid](https://www.linkedin.com/posts/ahusseinali_%D8%A7%D8%AA%D8%B9%D9%84%D9%85-%D8%A7%D8%B2%D8%A7%D9%8A-object-oriented-programming-activity-6816176636887736320-Z8sA)
 - [Learning for kids](https://www.youtube.com/channel/UCC_bGf8JdzCef1ubGK8yYyA)
 - [ddd](https://www.youtube.com/watch?v=3gib0hKYjB0)
+- [stories with git](https://www.linkedin.com/posts/hassanel-seoudy_dangit-git-activity-6826433587332571136-TzsX)
 
 # Android links 
 - [date-and-time-patterns](https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns)
