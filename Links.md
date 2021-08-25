@@ -21,6 +21,7 @@
 - [Learning for kids](https://www.youtube.com/channel/UCC_bGf8JdzCef1ubGK8yYyA)
 - [ddd](https://www.youtube.com/watch?v=3gib0hKYjB0)
 - [stories with git](https://www.linkedin.com/posts/hassanel-seoudy_dangit-git-activity-6826433587332571136-TzsX)
+- [B-Tree](https://benjamincongdon.me/blog/2021/08/17/B-Trees-More-Than-I-Thought-Id-Want-to-Know/?utm_source=programmingdigest&utm_medium=email&utm_campaign=434&fbclid=IwAR1jyvXFZoNzoPORq8447UElvQlHtDV6UT5LDRl-_mhOQ5OkdqrtQ8JTcwk)
 
 # Android links 
 - [date-and-time-patterns](https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns)
