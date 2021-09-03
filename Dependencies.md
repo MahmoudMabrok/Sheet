@@ -1,3 +1,15 @@
+# Plugins 
+## detekt 
+```
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id("io.gitlab.arturbosch.detekt").version("1.18.1")
+}
+
+```
+
+
 # Base 
 ```
   implementation "androidx.appcompat:appcompat:$rootProject.appCompatVersion"
