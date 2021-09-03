@@ -7,7 +7,27 @@ plugins {
     id("io.gitlab.arturbosch.detekt").version("1.18.1")
 }
 
+ detektPlugins "io.gitlab.arturbosch.detekt:detekt-formatting:1.18.1"
+
+task detektFormat(type: io.gitlab.arturbosch.detekt.Detekt) {
+    description = "Runs autocorrect enabled detekt build."
+    source = files("src/main/java")
+    config.from(files("$rootDir/Scripts/detekt-config.yml"))
+    autoCorrect = true
+    reports {
+        html{
+            enabled = true
+            destination = file("build/reports/detekt-formatted.html")
+        }
+    }
+}
+
+
+
+
 ```
+
+- [detekt-config.yml](https://github.com/detekt/detekt/edit/main/detekt-core/src/main/resources/default-detekt-config.yml)
 
 
 # Base 
