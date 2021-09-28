@@ -94,6 +94,7 @@
 - [dealing-with-multiple-python-versions-and-pip](https://stackoverflow.com/questions/2812520/dealing-with-multiple-python-versions-and-pip)  
 
 # Resources 
+- tool to localize strings [androidapptranslator](https://androidapptranslator.com/)
 
 - Firebase 
     - [English Cousre](https://www.youtube.com/playlist?list=PLGCjwl1RrtcTXrWuRTa59RyRmQ4OedWrt).
