@@ -88,3 +88,32 @@ let stro = JSON.stringify(data);
 stro
 ```
 
+
+
+# Fragments 
+- https://guides.codepath.com/android/creating-and-using-fragments
+
+# ViewPager + TabLayout
+- https://developer.android.com/guide/navigation/navigation-swipe-view-2
+- https://www.youtube.com/watch?v=lAP6cz1HSzA
+
+# BottomNavigation 
+- https://www.geeksforgeeks.org/bottom-navigation-bar-in-android/
+
+# Menues 
+- https://www.geeksforgeeks.org/how-to-implement-options-menu-in-android/
+
+# DrawerLayout 
+- https://www.geeksforgeeks.org/navigation-drawer-in-android/
+
+# Navigation compoentent 
+- https://developer.android.com/guide/navigation/navigation-getting-started
+
+# notifications
+- https://developer.android.com/guide/topics/ui/notifiers/notifications
+
+# dialogs
+- https://developer.android.com/guide/topics/ui/dialogs 
+
+# datetimepicker 
+- https://developer.android.com/guide/topics/ui/controls/pickers
