@@ -88,8 +88,6 @@ let stro = JSON.stringify(data);
 stro
 ```
 
-
-
 # Fragments 
 - https://guides.codepath.com/android/creating-and-using-fragments
 
@@ -117,3 +115,9 @@ stro
 
 # datetimepicker 
 - https://developer.android.com/guide/topics/ui/controls/pickers
+
+# MVVM
+- https://www.youtube.com/watch?v=ASospiWBOyU
+- https://www.youtube.com/watch?v=siTlk5mDssU
+- https://www.youtube.com/watch?v=fo6rvTP9kkc
+- https://www.youtube.com/watch?v=ijXjCtCXcN4
