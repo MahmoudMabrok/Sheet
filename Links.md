@@ -23,6 +23,9 @@
 - [stories with git](https://www.linkedin.com/posts/hassanel-seoudy_dangit-git-activity-6826433587332571136-TzsX)
 - [B-Tree](https://benjamincongdon.me/blog/2021/08/17/B-Trees-More-Than-I-Thought-Id-Want-to-Know/?utm_source=programmingdigest&utm_medium=email&utm_campaign=434&fbclid=IwAR1jyvXFZoNzoPORq8447UElvQlHtDV6UT5LDRl-_mhOQ5OkdqrtQ8JTcwk)
 - [UI kit](https://www.uistore.design/items/chefio-recipe-free-app-ui-kit-for-figma/)
+- [SOLID Using C#](https://www.linkedin.com/posts/mahmoud-mabrouk-fouad_solid-design-principles-in-c-activity-6854987076438368256-BpkD)
+- [Cucumer ](https://www.linkedin.com/feed/update/urn:li:activity:6854757001994502144/)
+- [Spring](https://www.linkedin.com/feed/update/urn:li:activity:6854162268599447552/)
 
 # Android links 
 - [date-and-time-patterns](https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns)
