@@ -4,7 +4,7 @@
 - [hasankhan - work](https://www.linkedin.com/posts/hasankhan_we-also-discussed-in-the-last-video-that-activity-6775880248971149312-TNz2)
 - [CV + ATS](https://www.youtube.com/watch?v=LV8R25PY3dc)
 
-# Learning rثsource 
+# Learning Resources
 - [Malware ](https://www.facebook.com/vs.viro/posts/584024422273924)
 - [Reverse Engineer](https://www.facebook.com/vs.viro/posts/508599133149787)
 - [DevOps road map](https://www.linkedin.com/posts/haythamm3wadallah_developer-roadmaps-activity-6793318265348247552-xCNE)
