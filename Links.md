@@ -19,6 +19,7 @@
 - [SOLID Using C#](https://www.linkedin.com/posts/mahmoud-mabrouk-fouad_solid-design-principles-in-c-activity-6854987076438368256-BpkD)
 - [Cucumer ](https://www.linkedin.com/feed/update/urn:li:activity:6854757001994502144/)
 - [Spring](https://www.linkedin.com/feed/update/urn:li:activity:6854162268599447552/)
+- [eng-practices](https://google.github.io/eng-practices/review/reviewer/)
 
 # Android links 
 - [date-and-time-patterns](https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns)
