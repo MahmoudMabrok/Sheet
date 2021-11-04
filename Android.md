@@ -5,6 +5,10 @@
 - [Touch Handling](#Touch-Handling)
 - [Sign in with Apple using Firebase](#Sign-in-with-Apple-using-Firebase)
 
+# LiveData 
+- LiveData did one thing and it did it well: it exposed data while caching the latest value and understanding Android’s lifecycles. 
+
+
 # ViewBinding 
 - add gradle 
     ```
