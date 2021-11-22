@@ -26,6 +26,7 @@
 - [UltraLearning](https://www.linkedin.com/feed/update/urn:li:activity:6862756520963149824/)
 - [DevOps](https://github.com/bregman-arie/devops-exercises)
 - [Be Good QA](https://www.linkedin.com/feed/update/urn:li:activity:6867402687990796288/)
+- [AUTOMATION SCRIPTS](https://www.linkedin.com/feed/update/urn:li:activity:6868587834660528129/)
 
 # Android links 
 - [date-and-time-patterns](https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns)
