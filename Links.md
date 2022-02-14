@@ -29,6 +29,7 @@
 - [AUTOMATION SCRIPTS](https://www.linkedin.com/feed/update/urn:li:activity:6868587834660528129/)
 - [data-structures-and-algorithms from google](https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/?no-filter=true)
 - [ازاي أبدء في مجال التستينج](https://www.linkedin.com/feed/update/urn:li:activity:6882026456772292608/)
+- [devops-learning](https://trstringer.com/devops-learning-2022/)
 
 # Android links 
 - [date-and-time-patterns](https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns)
