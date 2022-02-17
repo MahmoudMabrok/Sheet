@@ -31,6 +31,7 @@
 - [ازاي أبدء في مجال التستينج](https://www.linkedin.com/feed/update/urn:li:activity:6882026456772292608/)
 - [devops-learning](https://trstringer.com/devops-learning-2022/)
 - [android rewsources](https://www.linkedin.com/feed/update/urn:li:activity:6899590109881090048/)
+- [android-developer-roadmap](https://trello.com/b/fsc44tYh/android-developer-roadmap)
 
 # Android links 
 - [date-and-time-patterns](https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns)
