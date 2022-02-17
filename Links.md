@@ -5,6 +5,7 @@
 - [CV + ATS](https://www.youtube.com/watch?v=LV8R25PY3dc)
 - [step-by-step-guide-to-prepare-for-any-software-engineering-interview](https://chioualexander.medium.com/step-by-step-guide-to-prepare-for-any-software-engineering-interview-7a629b8a1d54)
 - [the-ultimate-guide-to-advance-your-career-in-tech](https://chioualexander.medium.com/the-ultimate-guide-to-advance-your-career-in-tech-regularly-updated-7b2929355f31)
+- [CV](https://www.linkedin.com/feed/update/urn:li:activity:6900136327325585409/)
 
 # Learning Resources
 - [Malware ](https://www.facebook.com/vs.viro/posts/584024422273924)
