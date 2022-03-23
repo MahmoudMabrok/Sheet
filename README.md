@@ -95,7 +95,13 @@
   git rm -r --cached <folder>
 
   ```
-  
+  - update 
+    ```
+    sudo add-apt-repository ppa:git-core/ppa -y
+    sudo apt-get update
+    sudo apt-get install git -y
+    git --version
+    ```
   
 # Python 
 - [dealing-with-multiple-python-versions-and-pip](https://stackoverflow.com/questions/2812520/dealing-with-multiple-python-versions-and-pip)  
