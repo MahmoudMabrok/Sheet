@@ -38,6 +38,7 @@
 - [devops-learning](https://trstringer.com/devops-learning-2022/)
 - [android rewsources](https://www.linkedin.com/feed/update/urn:li:activity:6899590109881090048/)
 - [android-developer-roadmap](https://trello.com/b/fsc44tYh/android-developer-roadmap)
+- [OOP interview preparing](https://www.linkedin.com/feed/update/urn:li:activity:6914570567551471616/)
 
 # Android links 
 - [date-and-time-patterns](https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns)
