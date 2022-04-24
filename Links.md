@@ -48,3 +48,7 @@
 
 # Miscs
 - [compose-catalog](https://www.jetpackcompose.app/compose-catalog)
+
+
+# Motiviational 
+- [IMportance of mentor](https://www.linkedin.com/feed/update/urn:li:activity:6922514878444273664/)
