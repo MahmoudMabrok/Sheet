@@ -1,5 +1,6 @@
 
-# Job prepare 
+# Job prepare
+- [CS Road map](https://www.youtube.com/watch?v=b56XFMNEzAs)
 - [linkedin-handbook-get-your-first-dev-job](https://www.freecodecamp.org/news/linkedin-handbook-get-your-first-dev-job/)
 - [hasankhan - work](https://www.linkedin.com/posts/hasankhan_we-also-discussed-in-the-last-video-that-activity-6775880248971149312-TNz2)
 - [CV + ATS](https://www.youtube.com/watch?v=LV8R25PY3dc)
