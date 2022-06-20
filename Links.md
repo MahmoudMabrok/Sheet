@@ -51,7 +51,7 @@
 - [compose-catalog](https://www.jetpackcompose.app/compose-catalog)
 - [DS Use case 1 ](https://www.linkedin.com/posts/imkonsowa_%D9%88%D8%A7%D8%AD%D8%AF-%D9%85%D8%AD%D9%86%D9%83-%D8%A7%D9%86%D8%AA-%D8%A3%D8%B5%D9%84%D8%A7-%D9%85%D8%B4-%D9%87%D8%AA%D8%B3%D8%AA%D8%AE%D8%AF%D9%85-%D8%A7%D9%84%D9%80-data-activity-6942134688144609281-iD5N?utm_source=linkedin_share&utm_medium=member_desktop_web)
 - [DS Use case 2 ](https://www.linkedin.com/feed/update/urn:li:activity:6935718569049534464/)
-
+- [Summary Design Data Intensive apps](https://www.linkedin.com/feed/update/urn:li:activity:6944647948022546432?utm_source=linkedin_share&utm_medium=member_desktop_web)
 
 # Motiviational 
 - [IMportance of mentor](https://www.linkedin.com/feed/update/urn:li:activity:6922514878444273664/)
