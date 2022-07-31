@@ -140,4 +140,5 @@ sudo xrandr --addmode VGA-1 "1680x1050_60.00"
 
 # tools 
 - [hex_to_base64](http://tomeko.net/online_tools/hex_to_base64.php)
-- [Github analysis](https://yhype.me/dashboard)
+- [Github analysis](https://yhype.me/dashboard
+- [localization & icon helper ](https://respresso.io/)
