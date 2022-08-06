@@ -55,6 +55,7 @@
 
 # Motiviational 
 - [IMportance of mentor](https://www.linkedin.com/feed/update/urn:li:activity:6922514878444273664/)
+- [لهو الحديث والوقت](https://www.facebook.com/ProblemsIslamic/videos/333850681026299)
 
 # Marriage 
 - [بالقانون](https://fb.watch/eJGxmBhAS7/)
