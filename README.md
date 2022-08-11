@@ -8,6 +8,8 @@
 - [CV](https://www.linkedin.com/posts/mahmoud-mabrouk-fouad_mahmoudmabroukresume-activity-6808064496213491712-110u)
 - [Learning android](https://www.linkedin.com/feed/update/urn:li:activity:6816832955021848576/?fbclid=IwAR0hDw7HxTAmJrYh1AXP3KNhXDnfr6D0y74XigxDRJL6ucFVwlGk67Ce5L8)
 - [Quran App got 4th search](https://www.linkedin.com/posts/mahmoud-mabrouk-fouad_aepaesaesaevaetabraedaesabraehaesaexabraetaevaetaexabraewaepaesabraetaevaetaex-activity-6853449111337746432-diaS)
+- [Advices for open source](https://www.linkedin.com/feed/update/urn:li:activity:6960686472316235776)
+
 # Installation Guide
   - Flutter 
     - Linux
