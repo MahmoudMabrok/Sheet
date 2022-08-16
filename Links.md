@@ -40,6 +40,7 @@
 - [android rewsources](https://www.linkedin.com/feed/update/urn:li:activity:6899590109881090048/)
 - [android-developer-roadmap](https://trello.com/b/fsc44tYh/android-developer-roadmap)
 - [OOP interview preparing](https://www.linkedin.com/feed/update/urn:li:activity:6914570567551471616/)
+- [caching](https://www.linkedin.com/posts/atarekhasan_what-is-caching-in-software-systems-activity-6965184867319848960-wm5v?utm_source=linkedin_share&utm_medium=member_desktop_web)
 
 # Android links 
 - [date-and-time-patterns](https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns)
