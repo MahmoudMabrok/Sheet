@@ -11,6 +11,7 @@
 - [Salaries](https://www.linkedin.com/posts/ahusseinali_%D9%85%D8%B1%D8%AA%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%87%D9%86%D8%AF%D8%B3%D9%8A%D9%86-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1-%D9%88%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC-%D9%81%D9%8A%D9%87-%D9%83%D8%A7%D9%85-activity-6906659048201027585-WzSg)
 - [Slaraies2 ](https://www.linkedin.com/feed/update/urn:li:activity:6906581010612412416/)
 - [salary negotiate](https://mobile.twitter.com/mostafanageeb/status/1380602153597800448?lang=ar)
+- [Interview questions for 2-5 exp](https://www.linkedin.com/posts/moelzanaty3_top-50-java-thread-interview-questions-answers-activity-6964848531094290432-GdPq?utm_source=linkedin_share&utm_medium=member_desktop_web)
 
 
 # Learning Resources
