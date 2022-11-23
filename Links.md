@@ -44,6 +44,7 @@
 - [caching](https://www.linkedin.com/posts/atarekhasan_what-is-caching-in-software-systems-activity-6965184867319848960-wm5v?utm_source=linkedin_share&utm_medium=member_desktop_web)
 - [DS & ALGO](https://www.linkedin.com/posts/moelzanaty3_free-data-structures-tutorial-data-structure-activity-6967344153835778048-EyqP?utm_source=linkedin_share&utm_medium=member_desktop_web)
 - [Road map for iOS](https://www.youtube.com/watch?v=iPg4R57EIlI)
+- [Git in Arabic Complete course](https://www.youtube.com/watch?v=Q6G-J54vgKc)
 
 # Android links 
 - [date-and-time-patterns](https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns)
@@ -56,6 +57,9 @@
 - [DS Use case 1 ](https://www.linkedin.com/posts/imkonsowa_%D9%88%D8%A7%D8%AD%D8%AF-%D9%85%D8%AD%D9%86%D9%83-%D8%A7%D9%86%D8%AA-%D8%A3%D8%B5%D9%84%D8%A7-%D9%85%D8%B4-%D9%87%D8%AA%D8%B3%D8%AA%D8%AE%D8%AF%D9%85-%D8%A7%D9%84%D9%80-data-activity-6942134688144609281-iD5N?utm_source=linkedin_share&utm_medium=member_desktop_web)
 - [DS Use case 2 ](https://www.linkedin.com/feed/update/urn:li:activity:6935718569049534464/)
 - [Summary Design Data Intensive apps](https://www.linkedin.com/feed/update/urn:li:activity:6944647948022546432?utm_source=linkedin_share&utm_medium=member_desktop_web)
+
+# Useful Talks 
+- [ عادة هتخليك مهندس برمجيات محترف ( الكتاب الأكثر مبيعًا علي أمازون )](https://www.youtube.com/watch?v=Ll6KIN5fH10) 
 
 # Motiviational 
 - [IMportance of mentor](https://www.linkedin.com/feed/update/urn:li:activity:6922514878444273664/)
