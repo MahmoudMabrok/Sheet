@@ -45,6 +45,7 @@
 - [DS & ALGO](https://www.linkedin.com/posts/moelzanaty3_free-data-structures-tutorial-data-structure-activity-6967344153835778048-EyqP?utm_source=linkedin_share&utm_medium=member_desktop_web)
 - [Road map for iOS](https://www.youtube.com/watch?v=iPg4R57EIlI)
 - [Git in Arabic Complete course](https://www.youtube.com/watch?v=Q6G-J54vgKc)
+- [S.O.L.I.D](https://www.linkedin.com/posts/mr-osama-mustafa_%D8%AF%D9%8A-%D8%AA%D8%AC%D9%85%D9%8A%D8%B9%D8%A9-%D9%85%D8%B5%D8%A7%D8%AF%D8%B1-%D8%A8%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D9%8A%D9%88%D8%AA%D9%8A%D9%88%D8%A8-activity-7003461878827900928-w-vh?utm_source=share&utm_medium=member_desktop)
 
 # Android links 
 - [date-and-time-patterns](https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns)
