@@ -12,6 +12,7 @@
 - [Slaraies2 ](https://www.linkedin.com/feed/update/urn:li:activity:6906581010612412416/)
 - [salary negotiate](https://mobile.twitter.com/mostafanageeb/status/1380602153597800448?lang=ar)
 - [Interview questions for 2-5 exp](https://www.linkedin.com/posts/moelzanaty3_top-50-java-thread-interview-questions-answers-activity-6964848531094290432-GdPq?utm_source=linkedin_share&utm_medium=member_desktop_web)
+- [how to be senior](https://www.linkedin.com/feed/update/urn:li:activity:7001863670192345089/)
 
 
 # Learning Resources
