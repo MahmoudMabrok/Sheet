@@ -14,6 +14,7 @@
 - [Interview questions for 2-5 exp](https://www.linkedin.com/posts/moelzanaty3_top-50-java-thread-interview-questions-answers-activity-6964848531094290432-GdPq?utm_source=linkedin_share&utm_medium=member_desktop_web)
 - [how to be senior](https://www.linkedin.com/feed/update/urn:li:activity:7001863670192345089/)
 - [how to introduce yourself](https://www.linkedin.com/posts/moelzanaty3_moelzanaty3-job-career-activity-7016461730067148801-o3Do?utm_source=share&utm_medium=member_desktop)
+- [Prepare for FAANG](https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7017784466093846528/)
 
 
 # Learning Resources
