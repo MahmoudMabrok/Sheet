@@ -15,7 +15,7 @@
 - [how to be senior](https://www.linkedin.com/feed/update/urn:li:activity:7001863670192345089/)
 - [how to introduce yourself](https://www.linkedin.com/posts/moelzanaty3_moelzanaty3-job-career-activity-7016461730067148801-o3Do?utm_source=share&utm_medium=member_desktop)
 - [Prepare for FAANG](https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7017784466093846528/)
-
+- [Prepare for JS interviews](https://www.linkedin.com/posts/moelzanaty3_jobs-freelance-remoteworking-activity-7028277074624688128-L0b1?utm_source=share&utm_medium=member_desktop)
 
 # Learning Resources
 - [Malware ](https://www.facebook.com/vs.viro/posts/584024422273924)
