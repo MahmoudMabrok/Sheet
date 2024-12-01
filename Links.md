@@ -24,6 +24,7 @@
 - [SOLID](https://www.linkedin.com/posts/mr-osama-mustafa_%D8%AF%D9%88%D9%84-3-%D9%85%D8%B5%D8%A7%D8%AF%D8%B1-%D8%B3%D8%A7%D8%B9%D8%AF%D9%88%D9%86%D9%8A-%D8%A2%D8%AE%D8%AF-%D8%B5%D9%88%D8%B1%D8%A9-%D8%B9%D8%A7%D9%85%D8%A9-%D8%B9%D9%86-%D8%A7%D9%84%D9%80-activity-6812390811431407617-N0aD)
 - [learning ooa + ood + solid](https://www.linkedin.com/posts/ahusseinali_%D8%A7%D8%AA%D8%B9%D9%84%D9%85-%D8%A7%D8%B2%D8%A7%D9%8A-object-oriented-programming-activity-6816176636887736320-Z8sA)
 - [Learning for kids](https://www.youtube.com/channel/UCC_bGf8JdzCef1ubGK8yYyA)
+- [Design patterns](https://www.linkedin.com/feed/update/urn:li:activity:7268532200176787456/)
 - [ddd](https://www.youtube.com/watch?v=3gib0hKYjB0)
 - [mobile dev debate](https://www.facebook.com/sprintsai/videos/mobile-development-debate/692799318097966/)
 - [stories with git](https://www.linkedin.com/posts/hassanel-seoudy_dangit-git-activity-6826433587332571136-TzsX)
